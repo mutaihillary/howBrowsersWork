@@ -26,5 +26,13 @@ Browsers' user interface have a lot in common with each other. Among the common 
     Home button that gets you to your home page
     
 Component    
-Web browsers consist of a user interface, layout engine, rendering engine, JavaScript interpreter, UI backend, networking component and data persistence component. These components achieve different functionalities of a web browser and together provide all capabilities of a web browserComponents
+Web browsers consist:
+Interface-this includes the address bar, back/forward button, bookmarking menu etc. Every part of the browser display except the main window where you see the requested page.
+Layout engine-responsible for displaying the requested content. For example if the requested content is HTML, it is responsible for parsing the HTML and CSS and displaying the parsed content on the screen.
+Rendering engine-responsible for displaying the requested content. For example if the requested content is HTML, it is responsible for parsing the HTML and CSS and displaying the parsed content on the screen.
+JavaScript interpreter- Used to parse and execute the JavaScript code.
+UI backend- used for drawing basic widgets like combo boxes and windows. It exposes a generic interface that is not platform specific. Underneath it uses the operating system user interface methods.
+Networking component-used for network calls, like HTTP requests. It has platform independent interface and underneath implementations for each platform.
+Data persistence component-This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
+
 
