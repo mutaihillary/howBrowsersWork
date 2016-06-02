@@ -17,7 +17,7 @@ The way the browser interprets and displays HTML files is specified in the HTML 
 The current version of HTML is 4 . Version 5 is in progress. The current CSS version is 2 and version 3 is in progress.
 
 Interface
-Browsers' user interface have a lot in common with each other. Among the common user interface elements are:
+Browsers' user interface have a lot in common with each other. Among the common user interface elements are
 
     Address bar for inserting the URI
     Back and forward buttons
@@ -34,5 +34,11 @@ JavaScript interpreter- Used to parse and execute the JavaScript code.
 UI backend- used for drawing basic widgets like combo boxes and windows. It exposes a generic interface that is not platform specific. Underneath it uses the operating system user interface methods.
 Networking component-used for network calls, like HTTP requests. It has platform independent interface and underneath implementations for each platform.
 Data persistence component-This is a persistence layer. The browser needs to save all sorts of data on the hard disk, for examples, cookies. The new HTML specification (HTML5) defines 'web database' which is a complete (although light) database in the browser.
+References
+[I'm an inline-style link](http://taligarsiel.com/Projects/howbrowserswork1.htm)
+[I'm an inline-style link](http://arvindr21.github.io/howBrowserWorks/#/17)
+[I'm an inline-style link](https://developers.google.com/web/updates/2012/04/Round-up-of-Web-Browser-Internals-Resources?hl=en)
+[I'm an inline-style link](https://en.wikipedia.org/wiki/Web_browser)
+[I'm an inline-style link](https://www.google.com)
 
 
