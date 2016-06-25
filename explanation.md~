@@ -29,9 +29,9 @@ Browsers' user interface have a lot in common with each other. Among the common 
 ## Component    
 ### Web browsers consist:
 #### Interface-
-This includes the address bar, back/forward button, bookmarking menu etc. Every part of the browser display except the main window where you see the requested page.
+this includes the address bar, back/forward button, bookmarking menu etc. Every part of the browser display except the main window where you see the requested page.
 #### Layout engine-
-Responsible for displaying the requested content. For example if the requested content is HTML, it is responsible for parsing the HTML and CSS and displaying the parsed content on the screen.
+responsible for displaying the requested content. For example if the requested content is HTML, it is responsible for parsing the HTML and CSS and displaying the parsed content on the screen.
 Rendering engine-responsible for displaying the requested content. For example if the requested content is HTML, it is responsible for parsing the HTML and CSS and displaying the parsed content on the screen.
 JavaScript interpreter- Used to parse and execute the JavaScript code.
 #### UI backend- 
